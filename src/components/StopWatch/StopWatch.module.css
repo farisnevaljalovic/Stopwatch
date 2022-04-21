@@ -1,0 +1,39 @@
+.watch{
+    width: 40%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.display span{
+    background:#00ABA9;
+    color: #fff;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+}
+.actionBtn{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 7px 15px;
+    color: cadetblue;
+    font-size: 1.1rem;
+    border: 1px solid cadetblue;
+    outline: none;
+    background-color: transparent;
+}
